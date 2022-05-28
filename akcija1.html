@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Moj Dom - Internet prodavnica zdravih snova">
+	<meta name="author" content="Stefan Rusic">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<title>Akcija 1 | Moj Dom</title>
+</head>
+<body>
+		<a href="ponuda.html" style="float:right"><img src="img/arrow-forward.png" width="70" height="70" alt="Arrow forward"></a>
+	<p style="font-size:18pt; color:blue" align="right">Ponude</p>
+<a href="index.html"><img  src="img/logo.gif" class="logo" alt="Moj Dom Logo"><br><br></a>
+<div class="meni">
+<a href="index.html"><div class="menidiv">Početna</div></a>
+<a href="akcija.html"><div class="aktivno">Akcija</div></a>
+<a href="prodajnamesta.html"><div class="menidiv">Prodajna mesta</div></a>
+<a href="kontakt.html"><div class="menidiv">Kontakt</div></a>
+<a href="onama.html"><div class="menidiv">O nama</div></a>
+</div>
+<div class="kontejner">
+<div class="sadrzajprvi">
+<div class="informacije">INFORMACIJE</div>
+	
+					<ul style="line-height:25px;">
+			<li><a href="#.html">Kako naručiti?</a></li>
+			<li><a href="#.html">Načini isporuke</a></li>
+			<li><a href="kontakt.html">Kontaktirajte nas</a></li>
+			<li><a href="onama.html">O nama</a></li>
+			<li><a href="prodajnamesta.html">Prodajna mesta</a></li>
+		</ul>
+		<hr>
+	<div class="informacije">ANKETA</div>
+	<form method="post"  name="radioForm" >
+	<table>
+              <tr>
+                <td><span class="anketa">Kako ste saznali za nas?<br></span>
+                    <br> 
+					<table><tr><td><input type=radio name="option_id" value="MTI3"></td><td  style="color:blue;font-weight:bold;">Facebook / Twitter</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTI4"></td><td  style="color:blue;font-weight:bold;">Internet</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTI5"></td><td  style="color:blue;font-weight:bold;">Preporuka prijatelja</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMw"></td><td  style="color:blue;font-weight:bold;">Novine</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMx"></td><td  style="color:blue;font-weight:bold;">Televizija</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMy"></td><td  style="color:blue;font-weight:bold;">Halo oglasi</td></tr></table>
+					  
+               </td>
+              </tr>
+              <tr>
+               <td style="padding:5px; text-align: center;" >   <br>
+				<input type="image" name="Submit" onclick="anketa()"  src="img/posalji.gif" alt="Posalji">	
+				</td>
+              </tr>
+</table>
+	</form>
+<script>
+	function anketa(){
+	var group = document.radioForm.option_id;
+	for (var i=0; i<group.length; i++) {
+	if (group[i].checked)
+	break;
+	}
+	if (i==group.length)
+	return alert("Niste izabrali!");
+	alert("Hvala vam na popunjavanju ankete :)");
+}
+</script>
+</div>
+<div class="kontejner">
+<div class="sadrzajveliki"> 
+<h1 style="color:red;">Beo-Base dušek bez žičanog jezgra</h1>
+<img src="img/111.jpg" width="500" height="440" alt="Beo-Base dušek" style="float:left;  margin:10px;">
+<p><b>Dostupan u dimenzijama:</b><br>
+80x200cm <br>90x200cm</p>
+Visina dušeka: 14cm<br>
+Jezgro: PU blok pena<br>
+Navlaka: Ne skidajuća, štepana<br>
+<p><b> Isporuka:</b> <br>
+ -Kurirska služba (troškove isporuke snosi kupac) ili samostalno preuzimanje u Centrali MOJ DOM.
+-10 dana od datuma uplate avansa.<br>
+-Pozovite Call centar prodavnice nameštaja za proveru lager stanja. Ukoliko dušek tražene dimenzije imamo na lageru, možete ga preuzeti istog dana.<br><br><b>Redovna cena: 5599,00 din</b></p><br>
+<button type="button" class="naruci-btn" onClick="location.href='proizvod1.html'">Ubaci u korpu</button><br><br>
+
+<a href="akcija.html"><img src="img/arrow-back.png" width="50" height="50" alt="Arrow backward"></a><br>
+<p style="font-size:12pt; color:blue;">Vrati se na spisak ponuda</p></div>
+</div>
+</div>
+</body>
+</html>

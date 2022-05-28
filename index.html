@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Moj Dom - Internet prodavnica zdravih snova">
+	<meta name="author" content="Stefan Rusic">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<title>Moj Dom</title>
+</head>
+<body>
+	<a href="ponuda.html" style="float: right;"><img src="img/arrow-forward.png" width="70" height="70" alt="Arrow forward"></a>
+	<p style="font-size:18pt; color:blue; float: right;">Ponude</p> <br><br><br>
+
+	<button type="button"  class="black-btn" onclick="myFunction2()">BLK</button>
+	<button type="button"  class="white-btn" onclick="myFunction1()">WHT</button> 
+ 	<button type="button"  class="gray-btn"  onclick="myFunction()">GRY</button> 
+<br><br>
+		<script>
+function myFunction() {
+    document.getElementById("div").style.backgroundColor = "gray";
+}
+</script>
+<script>
+function myFunction1() {
+    document.getElementById("div1").style.backgroundColor = "white";
+}
+</script>
+<script>
+function myFunction2() {
+    document.getElementById("div2").style.backgroundColor = "black";
+}
+</script>
+<a href="index.html"><img  src="img/logo.gif" class="logo" alt="Moj Dom Logo"><br><br></a>
+<div class="meni">
+<a href="index.html"><div class="aktivno">Početna</div></a>
+<a href="akcija.html"><div class="menidiv">Akcija</div></a>
+<a href="prodajnamesta.html"><div class="menidiv">Prodajna mesta</div></a>
+<a href="kontakt.html"><div class="menidiv">Kontakt</div></a>
+<a href="onama.html"><div class="menidiv">O nama</div></a>
+</div>
+<div class="kontejner">
+<div id="div" class="sadrzajprvi">
+<div class="informacije">INFORMACIJE</div>
+	
+		<ul style="line-height:25px;">
+			<li><a href="#.html">Kako naručiti?</a></li>
+			<li><a href="#.html">Načini isporuke</a></li>
+			<li><a href="kontakt.html">Kontaktirajte nas</a></li>
+			<li><a href="onama.html">O nama</a></li>
+			<li><a href="prodajnamesta.html">Prodajna mesta</a></li>
+		</ul>
+		<hr>
+	<div class="informacije">ANKETA</div>
+	<form method="post"  name="radioForm" >
+	<table>
+              <tr>
+                <td><span class="anketa">Kako ste saznali za nas?<br></span>
+                    <br> 
+					<table><tr><td><input type=radio name="option_id" value="MTI3"></td><td  style="color:blue; font-weight:bold;">Facebook / Twitter</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTI4"></td><td  style="color:blue; font-weight:bold;">Internet</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTI5"></td><td  style="color:blue; font-weight:bold;">Preporuka prijatelja</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMw"></td><td  style="color:blue; font-weight:bold;">Novine</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMx"></td><td  style="color:blue; font-weight:bold;">Televizija</td></tr>
+					<tr><td><input type=radio  name="option_id" value="MTMy"></td><td  style="color:blue; font-weight:bold;">Halo oglasi</td></tr></table>
+					  
+               </td>
+              </tr>
+              <tr>
+				<td style="padding:5px; text-align: center;" >   <br>
+              <input type="image" name="Submit" onclick="anketa()"  src="img/posalji.gif" alt="Posalji">
+				</td>
+              </tr>
+</table>
+</form>
+<script>
+	function anketa()
+{
+     var group = document.radioForm.option_id;
+     for (var i=0; i<group.length; i++) {
+       if (group[i].checked)
+          break;
+     }
+     if (i==group.length)
+        return alert("Niste izabrali!");
+     alert("Hvala vam na popunjavanju ankete :)");
+}
+</script>
+</div>
+<div class="kontejner">
+<div id="div1" class="sadrzajdrugi">
+<h1 style="color:red;">Dobrodošli na Internet prodavnicu nameštaja MOJ DOM. </h1><br>
+<img src="img/618.jpg" style="float:left;" width="200" height="120" alt="Garnitura">
+<p style="color:red;"> Budite se umorni i neispavani? Vreme da promenite Vaš stari krevet.</p>
+<p style="color:blue;">Pravilnim odabirom dobrog i kvalitetnog sistema za spavanje (kreveti, dušeci i jastuci) možete smanjiti i ukloniti bol, neutralisati nepotrebne tačke pritiska, stres i napetost izazvanih nepravilnim položajem tela u toku spavanja.</p><br>
+<p style="color:red;">Obezbedite svom telu dobar odmor. Kreveti i dušeci za dobra jutra.</p>
+<p style="color:blue;">Izaberite kvalitetan masivni krevet od punog drveta iz kategorije Exclusive kreveti, krevet od punog drveta iz kategorije Economic kreveti ili čak, krevet od metala neobičnog i romantičnog dizajna, dušek koji će dugi niz godina čuvati Vaše zdravlje i zadovoljiti sve Vaše potrebe... i to po pristupačnoj ceni, iz široke ponude salona nameštaja MOJ DOM.</p>
+</div>
+<div id="div2" class="sadrzajtreci">
+<h1 style="color:red;">Najtraženiji proizvodi</h1>
+<hr>
+<a href="#.html"><img src="img/biodream.jpg" width="110" height="80" alt="Biodream">BIODREAM <br> Bebi-dušek 60x120cm</a><br><hr><br>
+<a href="#.html"><img src="img/camelion.jpg" width="110" height="80" alt="Camelion">CAMELION Garnitura na razvlačenje</a><br><hr><br>
+<a href="#.html"><img src="img/flamenko.jpg" width="110" height="80" alt="Flamenko">FLAMENKO <br>krevet deciji</a><br><br><hr>
+</div>
+</div>
+</div>
+</body>
+</html>

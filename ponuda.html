@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moj Dom - Internet prodavnica zdravih snova">
+	<meta name="author" content="Stefan Rusic">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Ponude | Moj Dom</title>
+    <style>
+    #izbor{
+    text-align: center;
+    }
+    #slika{
+        width:500px;
+    }
+    </style>
+        <script src="javascript/ponude.js">
+        </script>
+</head>
+<body>
+<a href="index.html"><img  src="img/logo.gif" class="logo" alt="Moj Dom Logo"><br><br></a>
+<h1 class="h1-ponude">Ponude</h1>
+<form>
+<select id="izbor" onChange="proizvod()">
+<option value="Izaberite jedan od namestaja sa spiska">Ponuda namestaja:</option>
+<option value="dusek">Beo-Base dusek bez zicanog jezgra</option>
+<option value="stilo">Krevet STILO i dusek EMPEROR</option>
+<option value="cubo">Krevet CUBO-Iguana</option>
+<option value="zebrano">Krevet Zebrano</option>
+<option value="spirit">Krevet Spirit</option>
+<option value="fioke">Krevet sa dve fioke i ogradicom</option>
+<option value="bracni">Bracni krevet</option>
+<option value="kompakt">Krevet kompakt</option>
+<option value="deca">Krevet za decu</option>
+</select>
+</form>
+<div id="polje">
+<a href="index.html"><img src="img/arrow-back.png"  width="50" height="50" alt="Arrow backward"></a>
+<p style="font-size:12pt; font-weight: bold; color:blue">Vrati se na pocetnu stranu</p>
+</div>
+</body>
+</html>

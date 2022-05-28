@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moj Dom - Internet prodavnica zdravih snova">
+	<meta name="author" content="Stefan Rusic">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript/boje2.js"></script>
+  <title>Proizvod 3 | Moj Dom</title>
+</head>
+<body>
+<a href="index.html"><img  src="img/logo.gif" class="logo" alt="Moj Dom Logo"></a>
+<h1 class="h1-proizvod">Krevet CUBO - Iguana</h1>
+<div class="proizvod">
+<table id="tabela3">
+<tr><th>Proizvod</th><th>Krevet CUBO - Iguana </th></tr>
+<tr><th>Cena</th><th>42005,00 din</th></tr>
+<tr><th>Dimenzije</th><th>90x190cm; 90x200cm</th></tr>
+</table><br><br>
+<button type="button" onClick="boja(1)" style="background-color:purple">Purple</button>
+<button type="button" onClick="boja(2)" style="background-color:orange">Orange</button>
+<button type="button" onClick="boja(3)" style="background-color:darkred">Dark Red</button><br><br>
+<img  src="img/333.jpg"  alt="Krevet CUBO-Iguana"><br><br>
+   <form name="primerPodatak" method="post">
+    <script>
+      function returnProvera(Podatak)
+       {
+        if(Podatak.email.value=="")
+        {
+        alert("Unesite E-mail!");
+        return false;
+        }
+        else alert("Uspesno ste narucili proizvod!");
+  
+      return true;
+       }
+    </script>
+	<p id="p1">Podaci o kupcu:</p>
+
+  <script>
+    document.getElementById("p1").style.color = "aqua";
+    document.getElementById("p1").style.fontFamily = "Arial";
+    document.getElementById("p1").style.fontSize = "30px";
+    document.getElementById("p1").style.fontWeight = "bold";
+    </script>
+    <label>Ime:</label>
+    <input type="text" placeholder="Unesite ime" class="text">
+    <br>
+    <br>
+    <label>Prezime:</label>
+    <input type="text" placeholder="Unesite prezime" class="text">
+    <br>
+    <br>
+    <label>E-mail:<span class="zvezdica">*</span></label>
+    <input type="text" id="email" placeholder="Unesite Email" class="text"><br>
+    <label>Telefon:</label>
+    <input type="text" name="telefon" placeholder="Unesite Telefon"><br><br>
+    <p id="p" style="font-weight:bold;color:aqua; text-align:center;">Kolicina:</p>
+<script>
+document.getElementById("p").style.fontFamily = "Serif";
+document.getElementById("p").style.fontSize = "25px";
+</script>
+<select name="kolicina" id="broj">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select><br><br>
+<button type="button" onclick="document.getElementById('vreme').innerHTML = Date()">Datum i Vreme kupovine</button>
+  <p id="vreme" style="font-weight:bold; font-family:sans-serif"></p>
+<br><br><br>
+  <button type="submit" class="naruci-btn" value="Naruci"  onclick="returnProvera(primerPodatak)">Naruci</button><br>
+ </form><br><br>
+ <span class="zvezdica">*</span><b style="font-size:18px">Obavezno uneti</b>
+</div>
+</body>
+</html>

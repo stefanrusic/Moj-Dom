@@ -1,0 +1,627 @@
+body
+{
+	background-color: #00d0f5;
+	margin:5%;
+}
+hr {
+border: 1px dashed blue;
+width: 98%;
+}
+h1{
+font-family:comic sans ms;
+text-align:center;
+color:#1b1b97;
+font-size: 25px;
+}
+a
+{
+text-decoration: none;
+}
+.meni{
+margin-top:8px;
+background-color: #13134c;
+height: 57px;
+box-shadow: 0px 1px 6px #404242;
+}
+.h1-ponude{
+	font-size: 50px;
+	font-family:sans-serif;
+	font-weight: bold;
+	color: red;
+}
+.ponuda{
+	font-size:23px;
+	font-weight: bold;
+	color:blue;
+	text-align: right;
+}
+.gray-btn{
+	background-color: gray;
+	border-radius: 50%;
+	width: 50px;
+	float: right;
+	border-style: none;
+	color: black;
+}
+.gray-btn:hover{
+	background-color: rgb(109, 106, 106);
+}
+.white-btn:hover{
+	background-color: rgb(224, 220, 220);
+}
+.black-btn:hover{
+	background-color: rgb(41, 39, 39);
+	color: white;
+}
+.white-btn{
+	background-color: white;
+	float: right;
+	border-radius: 50%;
+	width: 50px;
+	border-style: none;
+	color: black;
+}
+.black-btn{
+	background-color: black;
+	float: right;
+	border-radius: 50%;
+	width: 50px;
+	border-style: none;
+	color: white;
+}
+.naruci-btn{
+	background:blue;
+	color:red;
+	font-weight:bold;
+	width: 150px;
+	height:40px;
+	text-align: center;
+}
+.naruci-btn:hover{
+	color: black;
+}
+.h1-proizvod{
+	color: red;
+	font-family:sans-serif;
+	font-size: 5vh;
+}
+.proizvod{
+	margin: 100px 200px 200px 200px;
+	padding: 100px 0 100px 0;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-image: url(img/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.proizvod img{
+	width:600px;
+	height:500px;
+}
+#tabela1{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	font-size: 20px;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+#tabela2{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	font-size: 20px;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+#tabela3{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	font-size: 20px;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+th{
+	border: 2px solid black;
+}
+select {
+	display: block;
+	margin: 0 auto;
+	background-color: #072e5e;
+	height: 30px;
+	color: white;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	border: 2px solid white;
+	}
+option {
+	margin-top: 200px;
+	height: 80px;
+	border: 2px solid white;
+}
+ .proizvod input {
+	background-color: rgb(253, 178, 190);
+	font-weight: bold;
+	font-family: sans-serif;
+	height: 30px;
+	text-align: center;
+}
+.menidiv{
+position:relative;
+width: 20%;
+height: 40px;
+padding-top: 17px;
+text-align: center;
+font-family:comic sans ms;
+font-size:14pt;
+background: #9dc7fb;
+text-decoration: none;
+color: #13134c;
+float:left;
+text-shadow: 0 2px 2px #FFFFFF;
+}
+.pozadina{
+width: 100%;
+height: 40px;
+padding-top: 5px;
+padding-bottom:5px;
+background-color: blue;
+box-shadow: 0px 1px 6px #404242;
+border-radius: 4px;
+}
+.banertekst{
+position:absolute;
+margin-bottom:20%;
+margin-left: 5%;
+text-align: left;
+font-weight: bold;
+font-family: comic sans ms;
+font-size: 24pt;
+color:white;
+text-shadow: 0 2px 2px #072e5e;
+text-decoration:none;
+}
+.aktivno{
+position:relative;
+width: 20%;
+height: 40px;
+padding-top: 17px;
+text-align: center;
+font-family: comic sans ms;
+font-size:14pt;
+background: #072e5e;
+text-decoration: none;
+color: red;
+float:left;
+text-shadow: 0 2px 2px #000000;
+}
+.menidiv:hover{
+background: #072e5e;
+color: red;
+text-shadow: 0 2px 2px #000000;
+}
+.slike {
+margin-top:1%;
+text-decoration:none;
+margin-right: 20px;
+float:right;
+color: #13134c;
+font-family: comic sans ms;
+}
+.kontejner{
+width:100%;
+height: 550px;
+margin-top:6px;
+}
+.sadrzajprvi
+{
+font-family: comic sans ms;
+width: 20%;
+height: 550px;
+background: #9dc7fb;
+float:left;
+box-shadow: 0px 1px 6px #404242;
+border-radius: 4px;
+margin-right: 11px;
+}
+.linkoviprvi{
+font-family: comic sans ms;
+position:absolute;
+width:120px;
+height: 105px;
+margin:20px;
+text-align: center;
+text-decoration:none;
+color: #072e5e;
+}
+.sadrzajdrugi{
+font-family: comic sans ms;
+width: 59%;
+height: 550px;
+background: #9dc7fb;
+float:left;
+box-shadow: 0px 1px 6px #404242;
+border-radius: 4px;
+text-align:justify;
+}
+.sadrzajtreci{
+font-family: comic sans ms;
+width: 18%;;
+height: 550px;
+background: #9dc7fb;
+float:right;
+margin-left: 9px;
+box-shadow: 0px 1px 6px #404242;
+border-radius: 4px;
+text-align:center;
+}
+#div2 img{
+	float: left;
+}
+.logo
+{
+margin-top:-10%;
+}
+.informacije 
+{
+color:red;
+text-align:center;
+font-weight:bold;
+}
+.sadrzajveliki{
+width: 75%;
+height: 550px;
+background: #9dc7fb;
+float:right;
+box-shadow: 0px 1px 6px #404242;
+border-radius: 4px;
+}
+.zvezdica{
+color:red;
+font-size:17pt;
+}
+.anketa{
+	text-decoration:underline; 
+	color:darkblue; 
+	font-weight:bold; 
+	font-size:17px;
+}
+.forma {
+width: 70%;
+margin: 15px auto;
+text-align: justify;
+position: relative;
+left: 10%;
+}
+button{
+	background-color: #072e5e;
+	color: white;
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: monospace;
+	cursor: pointer;
+	border-radius: 10px;
+	letter-spacing: 1px;
+}
+button:hover{
+	color: black;
+}
+label{
+	width:90%;
+    display:inline-block;
+    padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+p:first-child
+{ 
+color:red;
+}
+a:visited
+{ 
+color:black;
+}
+.odvojen
+{
+font-family:comic sans ms;
+width: 100%;
+height: 160px;
+border-bottom:1px dashed #072e5e;
+margin-top:10px;
+}
+table
+{
+font-size:15px;
+}
+ul
+{
+font-size:15px;
+}
+.onama {
+font-family:comic sans ms;
+width: 90%;
+height: 160px;
+color:blue;
+padding-left: 20px;
+}
+.onama h1{
+	color: red;
+}
+.onama p{
+	text-align:left;
+	font-size:20px;
+}
+.slides{
+	padding-right: 20px;
+}
+p:first-letter{
+	font-size:1.2em;
+}
+
+@media screen and (max-width: 980px) {
+	img
+	{
+	 max-width:50% !important;
+    height:auto;
+   
+	}
+table
+{
+font-size:10px;
+}
+ul
+{font-size:10px;
+}
+.menidiv
+{
+font-size:13px;
+}
+.aktivno
+{
+font-size:13px;
+}
+p
+	{
+	font-size:11px;
+	}
+
+    .sadrzajprvi {
+       
+        width: 20%;
+		font-size:12px;
+		
+    }
+    .sadrzajveliki{
+       
+     width: 75%;
+     font-size:12px;
+	
+    }
+	.kontejner{
+		font-size: 13px;
+	}
+	.naruci-btn{
+		height: 30px;
+	}
+	.odvojen img{
+		height: 120px;
+	}
+	.sadrzajtreci h1{
+		font-size: 20px;
+	}
+	.onama p{
+		font-size: 15px;
+	}
+	.proizvod{
+		width: 70%;
+	}
+	.proizvod img{
+		width: 300px;
+		height: 200px;
+	}
+	#tabela1, #tabela2, #tabela3{
+		width: 400px;
+	}
+	.anketa{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 800px) {
+	img
+	{
+	 max-width:50% !important;
+    height:auto;
+   
+	}
+
+table
+{
+font-size:10px;
+}
+ul
+{font-size:10px;
+}
+h1{
+	font-size: 20px;
+}
+.menidiv
+{
+font-size:13px;
+}
+.aktivno
+{
+font-size:13px;
+}
+    .sadrzajprvi {
+       
+        width: 20%;
+		font-size:10px;
+		
+    }
+
+    .sadrzajveliki {
+       
+     width: 75%;
+     font-size:10px;
+	
+    }
+	.onama p{
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	img
+	{
+	 max-width:50% !important;
+    height:auto;
+   
+	}
+	textarea{
+		width: 170px;
+	}
+ul
+{font-size:10px;
+}
+h1
+{ font-size:16px;
+}
+
+.menidiv
+{
+font-size:13px;
+}
+.aktivno
+{
+font-size:13px;
+}
+	.sadrzajprvi{
+		display:none;
+	}
+	.sadrzajveliki {
+		width: auto;
+		float: none;
+		font-size:11px;
+	}
+	#disko
+{
+
+font-size:40px;
+
+}
+.gray-btn, .white-btn, .black-btn{
+	display: none;
+}
+.sadrzajtreci{
+	display: none;
+}
+.sadrzajdrugi{
+	width: 100%;
+}
+}
+@media screen and (max-width: 400px) {
+	img
+	{
+	 max-width:50% !important;
+    height:auto;
+   
+	}
+p
+{
+font-size:9px;
+}
+h1{ 
+	font-size:14px;
+}
+.menidiv
+{
+font-size:9px;
+}
+.aktivno
+{
+font-size:9px;
+}
+	.sadrzajprvi{
+		display:none;
+	}
+	.sadrzajveliki {
+		width: auto;
+		float: none;
+	}
+.slike
+{
+width:35px;
+}
+.sadrzajdrugi{
+	width: 50%;
+}
+.kontejner{
+	width: 650px;
+	
+}
+.sadrzajtreci{
+	display: none;
+}
+.sadrzajprvi{
+	display: none;
+}
+textarea{
+	width: 170px;
+}
+button{
+	width: 90px;
+}
+.gray-btn, .white-btn, .black-btn{
+	display: none;
+}
+@media only screen and (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .slides{
+		display: none;
+	}
+  .right {
+    width: 100%;
+  }
+  .sadrzajveliki
+  {
+    width: 50%;
+  }
+  .gray-btn, .white-btn, .black-btn{
+	display: none;
+}
+}
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+  .slides{
+		display: none;
+	}
+	.sadrzajveliki{
+    width: 50%;
+  }
+  .sadrzajtreci{
+	display: none;
+}
+#div2{
+	display: none;
+}
+  }
+  .proizvod img{
+	width: 300px;
+	height: 200px;
+}
+#tabela1, #tabela2, #tabela3{
+	width: 50px;
+}
+}
